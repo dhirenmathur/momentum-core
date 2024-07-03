@@ -32,7 +32,7 @@ from server.change_detection import get_updated_function_list
 from server.blast_radius_detection import get_paths_from_identifiers
 from server.utils.github_helper import GithubService
 from server.utils.graph_db_helper import Neo4jGraph
-from server.utils.parse_helper import setup_project_directory, delete_folder, reparse_cleanup
+from server.utils.parse_helper import setup_project_directory, reparse_cleanup
 from server.dependencies import Dependencies
 from server.auth import check_auth
 from server.test_agent.crew import GenerateTest
